@@ -1,0 +1,25 @@
+server:
+  port: 9090
+spring:
+  data:
+    mongodb:
+      database: CRUD-2
+      port: 27017
+      host: localhost
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  mail:
+    host: smtp.gmail.com
+    username: student4556q@gmail.com
+    password: rdgfbzdguubbubil
+    port: 587
+    transport:
+      protocol: smtp
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          required: true
+          auth: true
